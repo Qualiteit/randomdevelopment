@@ -1,0 +1,14 @@
+<html>
+   <head>
+   <body>
+      <script>
+         function addArray() {
+            let arr = [];
+            const values=3;
+            for (i=1;i<=values;i++) arr.push(Number(prompt(`number (${i}/${values})`)));
+            alert(arr.reduce((total, value) => total + value));
+        }  
+      </script>
+    
+   </body>
+</html>   
